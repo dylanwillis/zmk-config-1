@@ -1,3 +1,4 @@
 #define THREE_THUMBS
+#define EXTERNAL_POWER
 
 #include "3x5.keymap"
