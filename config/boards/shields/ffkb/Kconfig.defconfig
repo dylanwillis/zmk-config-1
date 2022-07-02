@@ -4,11 +4,7 @@
 if SHIELD_FFKB
 
 config ZMK_KEYBOARD_NAME
-    default "ffkb"
-
-CONFIG_BUILD_OUTPUT_UF2=y
-
-endif
+    default "FFKB"
 
 if ZMK_DISPLAY
 
@@ -25,12 +21,6 @@ endif # ZMK_DISPLAY
 
 if LVGL
 
-config LVGL_HOR_RES_MAX
-	default 128
-
-config LVGL_VER_RES_MAX
-	default 64
-
 config LVGL_VDB_SIZE
 	default 64
 
@@ -45,3 +35,5 @@ choice LVGL_COLOR_DEPTH
 endchoice
 
 endif # LVGL
+
+endif
